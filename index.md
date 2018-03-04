@@ -1,8 +1,5 @@
 ## Welcome to GitHub Pages
-I LOVE YOU
-You can use the [editor on GitHub](https://github.com/TeaDing/tea-mytalk/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+贪婪到最后得到的总将是以后生活中无法消磨的痛楚
 
 ### Markdown
 
