@@ -7,7 +7,7 @@
 ## 人总是在变的，我有时候常常在想我们之间那没有联系的三四年中各自的变化，接触的人和事物造就了今天的你我
 ## 或许你曾经喜欢过Hello Kitty，那时候的我没有给你过，没有机会给，今天这你手中的茉莉香水是否也是你喜欢的呢
 
-  <audio id="bg-audio" src="bg.mp3" loop="loop" autoplay="autoplay"></audio>
+  <audio id="bg-audio" src="tea-mytalk/moon/miss.mp3" loop="loop" autoplay="autoplay"></audio>
 
 *js*
 
