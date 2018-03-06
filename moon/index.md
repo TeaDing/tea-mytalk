@@ -10,7 +10,7 @@
  // JavaScript Document
 function autoPlay(){//自动播放
      var myAuto = document.getElementById('myaudio');
-     myAuto.src = '/media/v2/sss.mp3';//MP3路径
+     myAuto.src = '/tea-mytalk/miss.mp3';//MP3路径
      myAuto.play();
 }
 function pausePlay(){//暂停播放
