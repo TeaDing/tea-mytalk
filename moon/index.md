@@ -7,23 +7,35 @@
 ## 人总是在变的，我有时候常常在想我们之间那没有联系的三四年中各自的变化，接触的人和事物造就了今天的你我
 ## 或许你曾经喜欢过Hello Kitty，那时候的我没有给你过，没有机会给，今天这你手中的茉莉香水是否也是你喜欢的呢
 
- // JavaScript Document
-function autoPlay(){//自动播放
-     var myAuto = document.getElementById('myaudio');
-     myAuto.src = '/tea-mytalk/miss.mp3';//MP3路径
-     myAuto.play();
+ <HTML>
+<HEAD>
+<TITLE>给网页加上背景音乐，选择音效功能</TITLE>
+<STYLE>
+<!--样式单 -->
+a{font-size:30pt;color:blue;font-family:Vineta BT}
+a:link{text-decoration:none;}
+a:hover{text-decoration:none;color:red}
+a:visited{text-decoration:none;}
+.20pt{font-size:20pt;color:#ff66cc}
+</STYLE>
+<script language=javascript>
+var mid=new Array()
+mid[1]="tea-mytalk/miss.mp3"
+mid[2]="tea-mytalk/miss.mp3"
+function clicksound(i)
+{
+  document.all.sound.src=mid[i]
 }
-function pausePlay(){//暂停播放
-  var myAuto = document.getElementById('myaudio');
-   myAuto.pause(); 
-}
-function createAuto(){
-    var _id = $("#audio");
-    if (window.applicationCache) {
-         _id.html('<audio id="myaudio" src="" controls="controls" loop="false" hidden="true"></audio>')
-            } else {
-            _id.html('<embed src="" id="myaudio" style="display: none;"></embed>'); 
-       }
- }
-创建方式
-createAuto();
+</script>
+</HEAD>
+<BODY>
+<bgsound id=sound src="" loop=1>
+<bgsound src="sound/201101/Abuse.mid">
+<center>
+<a href="#" onclick="clicksound(1)">NO! NO! NO!</a><br>
+<a href="#" onclick="clicksound(2)">You Win!欢呼!</a><br>
+<hr width=700>
+<font class=20pt>鼠标单击上面的内容时,会有动感的背景音效</font>
+</center>
+</BODY>
+</HTML>
