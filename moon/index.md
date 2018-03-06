@@ -20,8 +20,8 @@ a:visited{text-decoration:none;}
 </STYLE>
 <script language=javascript>
 var mid=new Array()
-mid[1]="tea-mytalk/miss.mp3"
-mid[2]="tea-mytalk/miss.mp3"
+mid[1]="/TeaDing/tea-mytalk/miss.mp3"
+mid[2]="/TeaDing/tea-mytalk/miss.mp3"
 function clicksound(i)
 {
   document.all.sound.src=mid[i]
